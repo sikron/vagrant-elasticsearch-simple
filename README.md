@@ -20,6 +20,7 @@ $ vagrant plugin install vagrant-vbguest
 ## Software installed in the Box
 * OpenJDK JRE 7
 * Elasticsearch 2.1.1
+ * "head" plugin
 
 ## Starting the Box (with Provisioning on first start)
 ```bash
