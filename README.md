@@ -65,4 +65,7 @@ curl -XGET -v http://localhost:9200
 Also the "head" plugin is installed, so from a browser in the host, just get
 ```
 http://localhost:9200/_plugin/head
-```
+
+
+## ElasticSearch in Version 1.3
+E.g. Spring JPA for ElasticSearch needs ES in version 1.3. For this the `bootstrap-es13.sh` should be used instead!
