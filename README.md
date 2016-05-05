@@ -1,5 +1,5 @@
 # vagrant-elasticsearch-simple
-A Vagrant box with Elasticsearch 2 for playing around with.
+A Vagrant box with Elasticsearch for playing around with. Different bootstrap files are provided to use in the Vagrantfile.
 
 ## Prerequisites
 These are things you need to install once on your machine to use this box.
@@ -19,8 +19,9 @@ $ vagrant plugin install vagrant-vbguest
 
 ## Software installed in the Box
 * OpenJDK JRE 7
-* Elasticsearch 2.1.1
+* Elasticsearch 1.3.7 or 2.1.1 or 2.3.2
  * "head" plugin
+ * "mapper-attachments" plugin (not for 1.3.7; seems not to work for 2.1.1 either...)
 
 ## Starting the Box (with Provisioning on first start)
 ```bash
@@ -68,4 +69,4 @@ http://localhost:9200/_plugin/head
 ```
 
 ## ElasticSearch in Version 1.3
-E.g. Spring JPA for ElasticSearch needs ES in version 1.3. For this the `bootstrap-es13.sh` should be used instead!
+E.g. Spring JPA for ElasticSearch needs ES in version 1.3.7. For this the `bootstrap-es137.sh` should be used instead!

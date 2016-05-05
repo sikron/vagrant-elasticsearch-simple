@@ -22,4 +22,6 @@ sudo service elasticsearch start
 
 # install head
 sudo /usr/share/elasticsearch/bin/plugin install mobz/elasticsearch-head
+#https://github.com/elastic/elasticsearch-mapper-attachments#installation
+sudo /usr/share/elasticsearch/bin/plugin install elasticsearch/elasticsearch-mapper-attachments/3.1.1
 
