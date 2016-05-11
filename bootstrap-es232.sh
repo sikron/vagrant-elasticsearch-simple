@@ -23,4 +23,8 @@ sudo service elasticsearch start
 # install head
 sudo /usr/share/elasticsearch/bin/plugin install mobz/elasticsearch-head
 sudo /usr/share/elasticsearch/bin/plugin install mapper-attachments
+sudo /usr/share/elasticsearch/bin/plugin install delete-by-query
+
+# re-start it
+sudo service elasticsearch restart
 
